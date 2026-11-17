@@ -39,7 +39,7 @@ def generate_puzzle(
             None
     """
     if not (4 <= R <= 9 and 4 <= C <= 9):
-        raise ValueError("R och C måste ligga mellan 4 och 9.")
+        raise ValueError("R and C must be between 4 and 9.")
     if d not in {0, 1, 3, 5}:
         raise ValueError("Interleave d needs to be in {0, 1, 3, 5}.")
 
